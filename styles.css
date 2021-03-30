@@ -37,12 +37,13 @@ body {
 }
 
 
-@media (max-width: 768px)
+@media (max-width: 768px) {
 .home__title {
     padding-left: 0;
     padding-top: 2em;
 
 }
+ }
 
 /* Buttons */
 
