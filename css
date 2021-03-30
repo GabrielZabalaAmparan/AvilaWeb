@@ -1,0 +1,219 @@
+body {
+ font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Crimson Text', serif;
+}
+}
+
+/* navbar */
+
+#navBar {
+    padding-left: 3.7em;
+}
+/* Home */
+
+#home {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+.home__title {
+  text-align: center;
+      color: #fff;
+      font-size: 5em;
+      padding-top: 3em;
+      padding-left: 3em;
+}
+
+@media (max-width: 768px) {
+  .home__title {
+    width: 90px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -1.3em;
+    margin-bottom: .5em;
+margin-left: 1.5em;
+font-size: 70px;
+text-align: center;
+
+
+  }
+}
+
+/* Buttons */
+
+.service__button {
+padding-top: 2em;
+padding-left: 24.7em;
+}
+
+.reviews__button {
+margin-left: 2em;
+}
+
+
+.prices-button {
+  width: 5.3em;
+  margin-left: 2em;
+}
+
+
+@media (max-width: 768px) {
+  .service__button {
+
+margin-left: -21.5em;
+
+  }
+}
+
+
+
+/* Typer effect */
+#intro-type {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+padding-top: 4em;
+padding-bottom: 3em;
+}
+
+.intro {
+display: flex;
+color: #111;
+height: 10vh;
+/* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/3466324/pexels-photo-3466324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+background-size: cover; */
+
+}
+
+.typing {
+  position: relative;
+  margin-left: 10px;
+}
+
+.typing::after{
+  content: "";
+  position: absolute;
+right: -5px;
+width: 0.5px;
+height: 75%;
+border-right: 2px solid #111;
+animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.build {
+  margin-left: 9em;
+}
+
+
+@media (max-width: 768px) {
+  .intro {
+
+margin-left: -13em;
+
+  }
+}
+
+
+/* Carrousel */
+
+.reviews {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.names {
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+/* Reviews */
+
+.center {
+  text-align: center;
+
+}
+
+/* Services */
+
+.we-do {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+.lead {
+  margin-top: 1.5em;
+}
+
+
+
+/* Pricing */
+
+#pricing {
+  padding-left: 5.3em;
+  padding-right: 4.4em;
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.hero {
+  padding-bottom: 1.5em;
+  padding-top: .5em;
+}
+
+
+/* Contact */
+
+#contact {
+  padding-left: 5.3em;
+  padding-right: 4.4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.contact-me {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.footer__link {
+  margin-left: 13.5em;
+  font-size: 2em;
+}
+.footer__link:hover {
+  color: #08d9d6;
+}
+
+.mailto {
+  margin-left: -4em;
+  margin-bottom: 3.7em;
+
+}
+
+@media (max-width: 768px) {
+  .footer__link {
+    margin-left: 5em;
+    margin-bottom: 9em;
+    margin-top: 3em;
+    font-size: 25px;
+  }
+}
