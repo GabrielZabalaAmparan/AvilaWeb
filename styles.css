@@ -141,9 +141,18 @@ animation: blink 0.5s infinite ease;
 
 
 @media (max-width: 768px) {
+  .build {
+
+margin-left: 1em;
+
+  }
+}
+
+
+@media (max-width: 768px) {
   .intro {
 
-margin-left: -13em;
+margin-left: -15em;
 
   }
 }
