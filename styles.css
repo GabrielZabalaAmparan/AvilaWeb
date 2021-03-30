@@ -77,8 +77,8 @@ margin-left: -15.5em;
 
 @media (max-width: 768px) {
 .service-btn {
-margin-left: -10.6em;
-    padding-left: 24.1em;
+    margin-left: -13.10em;
+    padding-left: 27.5em;
 }
 }
 
@@ -137,6 +137,28 @@ border-right: 2px solid #111;
 animation: blink 0.5s infinite ease;
 }
 
+
+
+@media (max-width: 768px) {
+  .typing::after{
+  content: "";
+  position: absolute;
+right: -5px;
+width: 0.5px;
+height: 55%;
+border-right: 2px solid #111;
+animation: blink 0.5s infinite ease;
+}
+}
+
+
+
+
+
+
+
+
+
 @keyframes blink {
   0% {
     opacity: 0;
@@ -154,7 +176,7 @@ animation: blink 0.5s infinite ease;
 @media (max-width: 768px) {
   .build {
 
-margin-left: 10.4em;
+margin-left: 10.8em;
     font-size: 1.5em;
   }
 }
