@@ -39,7 +39,7 @@ body {
 
 @media (max-width: 768px) {
 .home__title {
-    padding-left: 0;
+    font-size: 4em;
     padding-top: 2em;
 
 }
